@@ -1,4 +1,8 @@
+#install and load the neural network package
+install.packages("nnet")
 library(nnet)
+
+#set the seed so that the results are reproducible
 set.seed(342)
 train<-read.csv("train.csv")
 test<-read.csv("test.csv")
